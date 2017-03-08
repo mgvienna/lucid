@@ -72,7 +72,7 @@
     <header id="top" class="header">
         <div class="text-vertical-center">
             <img width="300rem" src="img/Lucid_Investments.png">
-            <h3>Build a Stock Portfolio with Your Friends</h3>
+            <h3>We make it painless to build an <br>investment portfolio with your friends</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
@@ -84,7 +84,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Lucid empowers you to invest collectively with other people.</h2>
-                    <h4>Investing with other people provides you crowdsourced knowledge and capital, enableing you to make better investments. And it's more fun!</h4>
+                    <h4>By investing with your friends you have access to more capital and knowledge -- and it's more fun!</h4>
                 </div>
             </div>
             <!-- /.row -->
@@ -162,50 +162,91 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
+          <script src="jquery.js"></script>
+          <script src="typed.js"></script>
+          <script>
+              $(function(){
+                  $(".typewriter").typed({
+                      strings: ["stocks", "startups", "products", "real estate", "currencies", "bitcoin"],
+                      typeSpeed: 0,
+                      backDelay: 500,
+                  });
+              });
+          </script>
+          <h1>Invest in <span class="typewriter"></span></h1>
         </div>
     </aside>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <section id="about" class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Portfolio</h2>
-                    <h4>In addition to enabling people to invest their own money, we make our own investments.</h4>
+                <div class="col-lg-12 text-center">
+                    <h2>Lucid empowers you to invest collectively with other people.</h2>
+                    <h4>By investing with your friends you have access to more capital and knowledge. And it's more fun!</h4>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Portfolio -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>How It Works</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong style="font-weight:500">1. Form a Group</strong>
+                                </h4>
+                                <p style="font-size:15px">Get as few or many of your friends or colleagues together. You and you friends can be accredited or non-accredited investors.</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong style="font-weight:500">2. Gather Capital</strong>
+                                </h4>
+                                <p style="font-size:15px">Decide how much money to initially invest. You can always add more later. All investors need to contribute equally.</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong style="font-weight:500">3. Formulate Portfolio</strong>
+                                </h4>
+                                <p style="font-size:15px">You need to create a brokerage account of your choice and have an operating agreement amongst your portfolio members.</p>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong style="font-weight:500">4. Get Approved</strong>
+                                </h4>
+                                <p style="font-size:15px">Submit your capital amounts, brokerage account and operating agreement to Lucid. Once approved, you start investing!</p>
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -214,18 +255,20 @@
         <!-- /.container -->
     </section>
 
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <section id="about" class="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
+              <div class="col-lg-12 text-center">
+                  <h3>The buttons below are impossible to resist.</h3>
+                  <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                  <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+              </div>
             </div>
+            <!-- /.row -->
         </div>
-    </aside>
+        <!-- /.container -->
+    </section>
+    <!-- Call to Action -->
 
     <!-- Map -->
     <section id="contact" class="map">
